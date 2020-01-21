@@ -13,16 +13,15 @@ var utf8 = require('utf8');
 var MultiUpload = require('./multi_upload');
 var HttpRequest = require('./http_request');
 var helper = require('./helper');
-var config = require('./config');
 
 //debug
 var util = require('util');
 
-var AuthClient = function(req) {
+var AuthClient = function(req, options) {
     this.req = req;
-    this.public_key = config['ucloud_public_key'];
-    this.private_key = config['ucloud_private_key'];
-    this.proxy_suffix = config['proxy_suffix'];
+    this.public_key = options['ucloud_public_key'];
+    this.private_key = options['ucloud_private_key'];
+    this.proxy_suffix = options['proxy_suffix'];
     this.authorization = "";
 }
 
