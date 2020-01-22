@@ -1,7 +1,10 @@
 {
-  "name": "ufile",
-  "version": "1.0.2",
+  "name": "ufile-sdk",
+  "version": "1.0.0",
   "main": "index.js",
+  "description": "UFile nodejs sdk",
+  "keywords": ["UCloud", "UFile", "nodejs", "SDK"],
+  "author": "Quentin Zhang",
   "dependencies": {
     "streamifier": "*",
     "request": "*",
