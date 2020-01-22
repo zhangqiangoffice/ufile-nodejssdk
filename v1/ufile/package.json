@@ -1,8 +1,12 @@
 {
   "name": "ufile-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "description": "UFile nodejs sdk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangqiangoffice/ufile-nodejssdk.git"
+  },
   "keywords": ["UCloud", "UFile", "nodejs", "SDK"],
   "author": "Quentin Zhang",
   "dependencies": {
@@ -12,5 +16,10 @@
     "multimap": "*",
     "mime": "*",
     "underscore": "*"
-  }
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangqiangoffice/ufile-nodejssdk/issues"
+  },
+  "homepage": "https://github.com/zhangqiangoffice/ufile-nodejssdk#readme"
 }
